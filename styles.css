@@ -3,13 +3,15 @@
 /* * {
     font-family: Merriweather sans-serif ;
 } */
-.primary-text{
+
+.primary-text {
     font-size: 20px;
 }
+/* header */
 header {
     width: 82.5%;
     max-width: 1320px;
-    margin: 50px 120px 140px 140px;
+    margin: 50px auto 120px ;
     align-items: center;
     justify-content: center;
 }
@@ -18,9 +20,6 @@ header {
     background-image: url('images/Banner\ Image.png');
     border-radius: 16px;
     background-repeat: no-repeat;
-}
-
-.banner {
     color: #FFF;
     text-align: center;
     font-family: Merriweather;
@@ -43,6 +42,12 @@ header {
 /* main */
 .section-one {
     align-items: center;
+    width: 82.5%;
+    max-width: 1320px;
+    margin: 50px auto 120px ;
+    align-items: center;
+    justify-content: center;
+    background-color: brown;
 }
 
 .discount h2 {
@@ -66,29 +71,25 @@ header {
 }
 
 .new-year-photo {
+    display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 30%px;
 }
 
-.new-year-photo:hover {
+.new-year-photo:hover{
     border: solid blue;
 }
 
-/* welcom section */
+/* section-2*/
+
 .welcome {
     background-image: url('images/Group\ 70.png'), url('images/Vectorrr.png');
     background-repeat: no-repeat;
-    margin:120px 140px;
-
-}
-
-.welcome {
-    margin-top: 120px auto;
+    margin: 50px auto 120px ;
     padding: 126px 150px 24px 126px;
-}
 
-.welcome h2 {
+}
+.welcome h2{
     color: #FFF;
     font-family: Merriweather;
     font-size: 64px;
@@ -104,9 +105,19 @@ header {
 }
 
 /* section 2 */
+
+.section-two{
+    margin: 50px auto 120px;
+}
+
 .container {
-    background-color:antiquewhite;   
-    margin:120px 140px;
+    background-color: antiquewhite;
+    /* margin:120px 140px; */
+    width: 82.5%;
+    max-width: 1320px;
+    margin: 50px auto 120px ;
+    align-items: center;
+    justify-content: center;
 }
 
 .container .text p {
@@ -127,44 +138,137 @@ header {
     font-size: 20px;
     margin: 0px 200px 110px 380px;
 }
+
 /* section-4 */
-.section-four ,.section-five{
+.section-four,.section-five {
     display: flex;
     width: 82.5%;
     max-width: 1320px;
-    margin: 50px 120px 140px 140px;
+    margin: 50px auto 120px ;
     background-color: aquamarine;
 
 }
-.section-four .part-1 h3{
+
+.red-primary {
     color: #F00;
     font-size: 24px;
 }
-.section-four .part-1 h2{
+
+.black-primary {
     font-size: 48px;
 }
 
-.ellips-pic{
-    border:15px solid red;
+.ellips-pic {
+    border: 15px solid red;
     border-radius: 50%;
     padding: 20px;
 
 }
-.section-four .part-3 .year{
+
+.section-four .part-3 .year {
     color: #F00;
     font-size: 48px;
 }
-.sub-title{
+
+.sub-title {
     font-size: 24px;
 }
-.section-five .text-holidy h1{
+
+.section-five .text-holidy h1 {
     font-size: 72px;
-    
+
 }
-.section-five .text-holidy span{
+
+.section-five .text-holidy span {
     color: #F00;
 }
-.section-five .text-holidy{
+
+.section-five .text-holidy {
     text-align: center;
 }
 
+/* section-seven */
+.section-seven {
+    background-color: bisque;
+    width: 82.5%;
+    margin: 50px auto 120px ;
+    max-width: 1320px;
+}
+
+.img1-3,
+.img4-6 {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* section eight */
+.section-eight {
+    text-align: center;
+    border-radius: 16px;
+    background: rgba(255, 0, 0, 0.05);
+    width: 82.5%;
+    margin: 50px auto 120px;
+    max-width: 1320px;
+}
+
+.Subscribe {
+    padding: 24px 56px;
+    color: #FFF;
+    font-size: 20px;
+    background-color: #F00;
+    border-radius: 0px 50px 50px 0px;
+    border: 0;
+}
+
+.form {}
+
+#email {
+    padding: 25px 427px 25px 30px;
+}
+
+/* footer */
+
+footer {
+    background-color:black;
+    color: white;
+    display: flex;
+    font-size: 24px;
+    width: 100%;
+    margin:auto;
+    max-width: 1920px;
+}
+
+.footer-text {
+    color:#F00;
+    font-family: Inter;
+    font-size: 24px;
+}
+.footer-text-1 .p1 {
+    padding: 120px 125px 260px 140px;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 40px;
+}
+
+.footer-text-1 .p2 {
+    padding: 0px 250px 120px 140px;
+}
+
+.footer-img {
+    margin: 298px auto 200px;
+}
+
+.p1 {
+    padding: 106px 291px 0px 0px;
+}
+
+.p2 {
+    padding: 0px 291px 419px 0px;
+}
+
+#Unsubscribe {
+    /* padding: 260px 10px 120px 1200pxpx; */
+}
