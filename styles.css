@@ -3,7 +3,10 @@
 /* * {
     font-family: Merriweather sans-serif ;
 } */
-
+/* *{
+    margin: 0px;
+    border: 0px;
+} */
 header {
     width: 82.5%;
     max-width: 1320px;
@@ -77,10 +80,11 @@ header {
 .welcome {
     background-image: url('images/Group\ 70.png'), url('images/Vectorrr.png');
     background-repeat: no-repeat;
+    margin:120px 140px;
 
 }
 
-.welcome{
+.welcome {
     margin-top: 120px auto;
     padding: 126px 150px 24px 126px;
 }
@@ -98,4 +102,58 @@ header {
     font-size: 18px;
     font-weight: 400;
     line-height: 30px;
+}
+
+/* section 2 */
+.container {
+    background-color:antiquewhite;   
+    margin:120px 140px;
+}
+
+.container .text p {
+    color: #070211;
+    font-family: Inter;
+    font-size: 32px;
+    padding: 120px 380px 48px 380px;
+    text-align: center;
+}
+
+.container .text span {
+    color: #F00;
+}
+
+.container button {
+    padding: 16px 32px;
+    background-color: #F00;
+    font-size: 20px;
+    margin: 0px 200px 110px 380px;
+}
+/* section-4 */
+.section-four{
+    display: flex;
+    width: 82.5%;
+    max-width: 1320px;
+    margin: 50px 120px 140px 140px;
+    background-color: aquamarine;
+
+}
+.section-four .part-1 h3{
+    color: #F00;
+    font-size: 24px;
+}
+.section-four .part-1 h2{
+    font-size: 48px;
+}
+.section-four p{
+    font-size: 20px;
+}
+.ellips-pic{
+    border:15px solid red;
+    border-radius: 50%;
+    padding: 20px;
+
+}
+.section-four .part-3 .year{
+    color: #F00;
+    font-size: 48px;
 }
