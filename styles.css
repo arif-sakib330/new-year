@@ -3,10 +3,9 @@
 /* * {
     font-family: Merriweather sans-serif ;
 } */
-/* *{
-    margin: 0px;
-    border: 0px;
-} */
+.primary-text{
+    font-size: 20px;
+}
 header {
     width: 82.5%;
     max-width: 1320px;
@@ -129,7 +128,7 @@ header {
     margin: 0px 200px 110px 380px;
 }
 /* section-4 */
-.section-four{
+.section-four ,.section-five{
     display: flex;
     width: 82.5%;
     max-width: 1320px;
@@ -144,9 +143,7 @@ header {
 .section-four .part-1 h2{
     font-size: 48px;
 }
-.section-four p{
-    font-size: 20px;
-}
+
 .ellips-pic{
     border:15px solid red;
     border-radius: 50%;
@@ -157,3 +154,17 @@ header {
     color: #F00;
     font-size: 48px;
 }
+.sub-title{
+    font-size: 24px;
+}
+.section-five .text-holidy h1{
+    font-size: 72px;
+    
+}
+.section-five .text-holidy span{
+    color: #F00;
+}
+.section-five .text-holidy{
+    text-align: center;
+}
+
