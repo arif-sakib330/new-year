@@ -1,8 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
-
-/* * {
-    font-family: Merriweather sans-serif ;
-} */
+ 
 
 .primary-text {
     font-size: 20px;
@@ -71,51 +68,58 @@ header {
     display: block;
     margin-left: auto;
     margin-right: auto;
+    
 }
 
 .new-year-photo:hover {
-    border: solid blue;
+    border:solid 9px blue;
+    border-radius:35%;
+    background-image:url(<path-to-image>), lightgray 50% / cover no-repeat;
 }
 
 /* section-3*/
 
 .section-two {
+    width: 82.5%;
     max-width: 1320px;
     margin: 50px auto 120px;
-    height: 600px;
+}
+.text{
+    font-size: 32px;
 }
 
 .welcome {
-    background-image: url('images/Group\ 70.png'), url('images/Vectorrr.png');
+    background-image: url('images/Group\ 70.png'),url('images/Vectorrr.png');
     background-repeat: no-repeat;
     background-position: right;
     background-size: auto;
-    padding: 126px 150px 24px 126px;
 }
 
-.welcome h2 {
+.welcome>h2 {
     color: #FFF;
     font-family: Merriweather;
     font-size: 64px;
     letter-spacing: 7.04px;
-    margin: 12px 300px 20px 50px;
+    padding-top: 126px;
+    margin:0px 550px 24px 126px;
+
+    
 }
 
-.welcome p {
+.welcome p{
     color: rgba(255, 255, 255, 0.80);
     font-family: Inter;
     font-size: 18px;
     font-weight: 400;
     line-height: 30px;
-    margin: 24px 300px 20px 50px;
+    margin: 0px 490px 48px 126px;
 
 }
 
 .join {
     font-family: Inter;
     font-size: 20px;
-    font-weight: 700;
-    margin-left: 100px;
+    margin-left: 170px;
     border: 0px;
     margin-bottom: 240px;
 }
@@ -126,6 +130,7 @@ header {
     max-width: 1320px;
     margin: 50px auto 120px;
     height: 482px;
+    border-radius: 20px;
 }
 
 .container {
@@ -159,8 +164,7 @@ header {
 
 /* section-4 */
 
-.section-four,
-.section-five {
+.section-four{
     display: flex;
     width: 82.5%;
     max-width: 1320px;
@@ -179,8 +183,10 @@ header {
 
 .ellips-pic {
     width: 463px;
+    padding:20px;
+    border: solid 15px red;
+    border-radius: 50%;
 }
-
 .part-3 {
     padding-top: 100px;
     margin-left: 108px;
@@ -190,41 +196,59 @@ header {
     color: #F00;
     font-size: 48px;
 }
-
-/* section-5 */
-.red-primary {
+.part-1 h3{
     color: #F00;
     font-size: 24px;
 }
-
-.black-primary {
+/* .red-primary{
+    column: red;
+} */
+.black-primary{
     font-size: 48px;
 }
 
-.ellips-pic {
-    border: 15px solid red;
-    border-radius: 50%;
-    padding: 20px;
-
+/* section-5 */
+.section-five{
+    max-width: 1320px;
+    margin: 120px auto;
 }
-
-
-
-.sub-title {
+.five-text-div {
+    text-align: center;
+    align-items: center;
+}
+.five-title {
     font-size: 24px;
 }
 
-.section-five .text-holidy h1 {
+.five-text-div h1 {
     font-size: 72px;
 
 }
 
-.section-five .text-holidy span {
+.five-text-div span {
     color: #F00;
 }
+.five-text {
+    font-size:20px;
+    margin: 28px 300px 20px 300px;
+}
 
-.section-five .text-holidy {
-    text-align: center;
+.five-image{
+    display: flex;
+    justify-content:space-between;
+    background-color: white;
+}
+.box{
+    width: 450px;
+}
+.offer-circle{
+    width: 206.841px;
+    height: 206.841px;
+}
+
+.Rectangle{
+    margin-right:0px;
+    width: 429px;
 }
 
 /* section-6 */
@@ -232,15 +256,23 @@ header {
     margin: 50px auto 120px;
     max-width: 1320px;
 }
+.red-primary{
+    color: #F00;
+}
 .section-six p{
     width:750px;
 }
 
-.img1-3,
-.img4-6 {
-    display: flex;
-    justify-content: space-between;
+.img1-3{
+    margin-top: 48px;
 }
+
+.img1-3,.img4-6{
+    display: flex;
+    justify-content:space-around;
+    margin-bottom: 15px;
+}
+
 
 /* section seven */
 .section-seven {
