@@ -7,17 +7,15 @@
 .primary-text {
     font-size: 20px;
 }
+
 /* header */
 header {
-    width: 82.5%;
     max-width: 1320px;
-    margin: 50px auto 120px ;
-    align-items: center;
-    justify-content: center;
+    margin: 50px auto 120px;
 }
 
 .banner {
-    background-image: url('images/Banner\ Image.png');
+    background-image: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url('images/Banner\ Image.png');
     border-radius: 16px;
     background-repeat: no-repeat;
     color: #FFF;
@@ -25,8 +23,9 @@ header {
     font-family: Merriweather;
     font-size: 32px;
     margin: 41px auto;
-    padding-top: 146px;
-    padding-bottom: 10px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+
 }
 
 .title {
@@ -34,20 +33,17 @@ header {
     font-family: Merriweather;
     font-size: 72px;
     padding-bottom: 146px;
-    /* width: 632px;
-    height: 190px;
-    align-items: center; */
+    padding: 0px 200px 30px 200px;
 }
 
-/* main */
+/* section-1*/
+
 .section-one {
-    align-items: center;
+
     width: 82.5%;
     max-width: 1320px;
-    margin: 50px auto 120px ;
-    align-items: center;
+    margin: 50px auto 120px;
     justify-content: center;
-    background-color: brown;
 }
 
 .discount h2 {
@@ -65,6 +61,7 @@ header {
 }
 
 .discount h3 {
+    padding: 0px auto;
     text-align: center;
     font-family: Inter;
     font-size: 48px;
@@ -76,24 +73,32 @@ header {
     margin-right: auto;
 }
 
-.new-year-photo:hover{
+.new-year-photo:hover {
     border: solid blue;
 }
 
-/* section-2*/
+/* section-3*/
+
+.section-two {
+    max-width: 1320px;
+    margin: 50px auto 120px;
+    height: 600px;
+}
 
 .welcome {
     background-image: url('images/Group\ 70.png'), url('images/Vectorrr.png');
     background-repeat: no-repeat;
-    margin: 50px auto 120px ;
+    background-position: right;
+    background-size: auto;
     padding: 126px 150px 24px 126px;
-
 }
-.welcome h2{
+
+.welcome h2 {
     color: #FFF;
     font-family: Merriweather;
     font-size: 64px;
     letter-spacing: 7.04px;
+    margin: 12px 300px 20px 50px;
 }
 
 .welcome p {
@@ -102,20 +107,30 @@ header {
     font-size: 18px;
     font-weight: 400;
     line-height: 30px;
+    margin: 24px 300px 20px 50px;
+
 }
 
-/* section 2 */
+.join {
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 700;
+    margin-left: 100px;
+    border: 0px;
+    margin-bottom: 240px;
+}
 
-.section-two{
+/* section-3 */
+.section-three {
+    background-image: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
+    max-width: 1320px;
     margin: 50px auto 120px;
+    height: 482px;
 }
 
 .container {
-    background-color: antiquewhite;
-    /* margin:120px 140px; */
-    width: 82.5%;
-    max-width: 1320px;
-    margin: 50px auto 120px ;
+
+    margin: 50px auto 120px;
     align-items: center;
     justify-content: center;
 }
@@ -136,19 +151,47 @@ header {
     padding: 16px 32px;
     background-color: #F00;
     font-size: 20px;
-    margin: 0px 200px 110px 380px;
+    margin: 48px 200px 110px 576px;
+    border-radius: 8px;
+    border: 0;
+    color: white;
 }
 
 /* section-4 */
-.section-four,.section-five {
+
+.section-four,
+.section-five {
     display: flex;
     width: 82.5%;
     max-width: 1320px;
-    margin: 50px auto 120px ;
-    background-color: aquamarine;
-
+    margin: 50px auto 120px;
 }
 
+.part-1 {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.part-1 p {
+    padding-right: 70px;
+    padding-bottom: auto;
+}
+
+.ellips-pic {
+    width: 463px;
+}
+
+.part-3 {
+    padding-top: 100px;
+    margin-left: 108px;
+}
+
+.section-four .part-3 .year {
+    color: #F00;
+    font-size: 48px;
+}
+
+/* section-5 */
 .red-primary {
     color: #F00;
     font-size: 24px;
@@ -165,10 +208,7 @@ header {
 
 }
 
-.section-four .part-3 .year {
-    color: #F00;
-    font-size: 48px;
-}
+
 
 .sub-title {
     font-size: 24px;
@@ -187,12 +227,13 @@ header {
     text-align: center;
 }
 
-/* section-seven */
-.section-seven {
-    background-color: bisque;
-    width: 82.5%;
-    margin: 50px auto 120px ;
+/* section-6 */
+.section-six {
+    margin: 50px auto 120px;
     max-width: 1320px;
+}
+.section-six p{
+    width:750px;
 }
 
 .img1-3,
@@ -201,8 +242,8 @@ header {
     justify-content: space-between;
 }
 
-/* section eight */
-.section-eight {
+/* section seven */
+.section-seven {
     text-align: center;
     border-radius: 16px;
     background: rgba(255, 0, 0, 0.05);
@@ -211,64 +252,72 @@ header {
     max-width: 1320px;
 }
 
+.section-seven img {
+    margin: 80px auto 40px;
+}
+
+.section-seven p {
+    padding: 22px 300px 48px 300px;
+}
+
 .Subscribe {
-    padding: 24px 56px;
+    padding: 21.5px 56px;
     color: #FFF;
     font-size: 20px;
     background-color: #F00;
     border-radius: 0px 50px 50px 0px;
     border: 0;
+    margin-bottom: 80px;
 }
 
 .form {}
 
 #email {
     padding: 25px 427px 25px 30px;
+    margin-bottom: 80px;
+    border: 0;
+    border-radius: 50px 0px 0px 50px;
+    font-size: 18px;
 }
 
 /* footer */
 
 footer {
-    background-color:black;
+    background-color: black;
     color: white;
     display: flex;
     font-size: 24px;
-    width: 100%;
-    margin:auto;
+    margin: auto;
     max-width: 1920px;
 }
 
-.footer-text {
-    color:#F00;
-    font-family: Inter;
-    font-size: 24px;
-}
+
 .footer-text-1 .p1 {
-    padding: 120px 125px 260px 140px;
+    margin: 120px 0px 260px 140px;
     color: #FFF;
     font-family: Inter;
     font-size: 24px;
-    font-style: normal;
     font-weight: 500;
     line-height: 40px;
+    width: 450px;
 }
 
 .footer-text-1 .p2 {
-    padding: 0px 250px 120px 140px;
+    margin: 0px 250px 120px 140px;
 }
 
 .footer-img {
-    margin: 298px auto 200px;
+    margin: 298px 280px 200px 200px;
 }
 
-.p1 {
-    padding: 106px 291px 0px 0px;
+.p11 {
+    margin: 120px 250px 0px 0px;
 }
 
-.p2 {
-    padding: 0px 291px 419px 0px;
+.p22 {
+    margin: 0px 250px 120px 0px;
 }
 
 #Unsubscribe {
-    /* padding: 260px 10px 120px 1200pxpx; */
+    margin: 280px 140px 120px 120px;
 }
